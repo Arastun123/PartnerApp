@@ -1,0 +1,168 @@
+.container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.header {
+    background: #1886EB;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 38px;
+    color: #fff;
+}
+
+.menu {
+    display: none;
+}
+
+li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+}
+
+.imgBox {
+    position: relative;
+    padding: 20px 0 0 20px 0;
+    background: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.desc {
+    position: absolute;
+    bottom: -50px;
+    left: 10px;
+    margin: 0 0 20px 0;
+    width: 90%;
+}
+
+#name {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.info {
+    width: 90%;
+    margin: 0 10px;
+    color: #000;
+    font-size: 20px;
+
+}
+
+.status {
+    font-size: 16px;
+}
+
+.status::before {
+    content: '';
+    display: inline-block;
+    background: #00FF38;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.imgBox img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.about p {
+    color: #000;
+    font-size: 18px;
+}
+
+h4 {
+    color: #000;
+    font-size: 24px;
+}
+
+h5 {
+    color: #000;
+    font-size: 26px;
+}
+
+.data p {
+    color: #000;
+    font-size: 18px;
+}
+
+.rating {
+    display: flex;
+    justify-content: end;
+}
+#ceo{
+    text-align: center;
+}
+#ceo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#ceo .info {
+    width: 100%;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.contact a {
+    color: #000;
+    display: inline-block;
+}
+
+.d-flex-desktop {
+    display: block;
+}
+
+
+
+@media (min-width: 768px) {
+    .menu {
+        display: block;
+    } 
+
+    .desc {
+        left: 150px;
+        width: 70%;
+    }
+
+    .d-flex-desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #ceo .info {
+        margin: 0 40px;
+        width: 40%;
+    }
+}
