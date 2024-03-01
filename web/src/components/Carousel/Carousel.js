@@ -29,38 +29,38 @@ const CarouselComp = () => {
         <Carousel responsive={responsive}>
             <div>
                 <img src="assests/img/img1.jpg" alt="Image 1" />
-                <p>Text for Item 1</p>
-                <p>Text for Item 1</p>
+                <p>Item 1</p>
+                <p>Item 1</p>
             </div>
 
             <div>
                 <img src="assests/img/img2.jpg" alt="Image 2" />
-                <p>Text for Item 2</p>
-                <p>Text for Item 2</p>
+                <p>Item 2</p>
+                <p>Item 2</p>
             </div>
 
             <div>
                 <img src="assests/img/img3.jpg" alt="Image 3" />
-                <p>Text for Item 3</p>
-                <p>Text for Item 3</p>
+                <p>Item 3</p>
+                <p>Item 3</p>
             </div>
 
             <div>
                 <img src="assests/img/img1.jpg" alt="Image 1" />
-                <p>Text for Item 4</p>
-                <p>Text for Item 4</p>
+                <p>Item 4</p>
+                <p>Item 4</p>
             </div>
 
             <div>
                 <img src="assests/img/img2.jpg" alt="Image 2" />
-                <p>Text for Item 5</p>
-                <p>Text for Item 5</p>
+                <p>Item 5</p>
+                <p>Item 5</p>
             </div>
 
             <div>
                 <img src="assests/img/img3.jpg" alt="Image 3" />
-                <p>Text for Item 6</p>
-                <p>Text for Item 6</p>
+                <p>Item 6</p>
+                <p>Item 6</p>
             </div>
         </Carousel>
     );

@@ -1,5 +1,12 @@
 import CarouselComp from '../Carousel/Carousel';
 import './Partner.css';
+import { PiBellSimpleLight, PiUsersThree, PiHouseLight  } from "react-icons/pi";
+import { MdOutlineHome, MdVerifiedUser  } from "react-icons/md";
+import { CiHeart } from "react-icons/ci";
+import { LiaHandshakeSolid } from "react-icons/lia";
+import { VscVerifiedFilled } from "react-icons/vsc";
+import { IoMdStar, IoMdStarHalf } from "react-icons/io";
+
 
 function Partner() {
   const divStyle = { backgroundImage: "url(assests/img/mainbg.jpg)" };
@@ -8,7 +15,7 @@ function Partner() {
       <div className='header'>
         <div className="container">
           <nav className='d-flex'>
-            <div><h3>Azersun</h3></div>
+            <div><h1>Azersun</h1></div>
             <div className='menu'>
               <ul className=' d-flex'>
                 <li> <a href='https://www.figma.com/file/MgiHkPM32arPX7ngjppqag/Untitled?type=design&node-id=88-1125&mode=design&t=K7H03cQdN2OpI8SA-0'> Мой кабинет </a> </li>
@@ -19,8 +26,8 @@ function Partner() {
               </ul>
             </div>
             <div>
-              <button className='btn'> bell </button>
-              <button className='btn'>home</button>
+              <button className='btn'> <PiBellSimpleLight size={32}/> </button>
+              <button className='btn'><PiHouseLight size={32}/></button>
             </div>
           </nav>
         </div>
@@ -36,7 +43,7 @@ function Partner() {
               <p className='status'>В сети</p>
             </div>
             <div>
-              <button>Fav</button>
+              <button className='btn'> <CiHeart size={32}/> </button>
             </div>
           </div>
         </div>
@@ -49,18 +56,18 @@ function Partner() {
         <div>
           <h5>Дополнительные данные</h5>
           <div className='data d-flex-desktop'>
-            <p>4 года сотрудничества</p>
-            <p>150 сотрудников</p>
-            <p>120,000 успешных сделок</p>
-            <p>Подтверждённый поставщик</p>
+            <p> <LiaHandshakeSolid size={20}/> 4 года сотрудничества</p>
+            <p> <PiUsersThree size={20}/> 150 сотрудников</p>
+            <p> <VscVerifiedFilled size={20}/> 120,000 успешных сделок</p>
+            <p> <MdVerifiedUser size={20}/> Подтверждённый поставщик</p>
           </div>
           <div className='rating'>
             <ul className='d-flex'>
-              <li>star</li>
-              <li>star</li>
-              <li>star</li>
-              <li>star</li>
-              <li>star</li>
+              <li><IoMdStar size={20}/> </li>
+              <li><IoMdStar size={20}/> </li>
+              <li><IoMdStar size={20}/> </li>
+              <li><IoMdStar size={20}/> </li>
+              <li><IoMdStarHalf size={20}/></li>
             </ul>
             <div className='text'>
               <p> Рейтинг поставщика 4.5/5</p>
